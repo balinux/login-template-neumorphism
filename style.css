@@ -17,10 +17,11 @@ body{
 
 .container-login{
     width: 350px;
-    height: 500px;
+    height: 655px;
     padding: 60px 35px 35px 35px;
     border-radius: 40px;
     background: #ecf0f3;
+    overflow: hidden;
     box-shadow: 13px 13px 20px #c0ced1,
                 -13px -13px 20px #ffffff;
 }
@@ -56,7 +57,7 @@ body{
 
 .custom-fields{
     width: 100%;
-    padding: 50px 5px 5px 5px;
+    padding: 30px 5px 5px 5px;
 }
 
 .custom-fields input{
@@ -109,3 +110,69 @@ body{
     text-decoration: none;
     font-size: 15px;
 }
+
+.btn-container{
+    width: 100%;
+    padding: 30px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-container .btn-option{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1, -6px -6px 8px #ffffff;
+}
+
+/* .horizontal-scroll-wrapper {
+    width: 100px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform:rotate(-90deg) translateY(-100px);
+    transform-origin: right top;
+  }
+
+  .horizontal-scroll-wrapper > div {
+    width: 100px;
+    height: 100px;
+    transform: rotate(90deg);
+    transform-origin: right top; 
+  } */
+
+  .menu-items{
+      margin-top: 15px;
+      width: 100%;
+      padding: 0px 10px;
+      padding-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 3px 3px 8px #b1b1b1, -6px -6px 8px #ffffff;
+  }
+  .row-items{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .row-items .title, .row-items .price{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.85;
+  }
