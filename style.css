@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+font-family: 'Lato';
+src: url('./font/Lato-Regular');
+font-weight: normal;
+font-style: normal;
+}
+  
 body{
     height: 100vh;
     widows: 100vh;
@@ -17,8 +24,7 @@ body{
 
 .container-login{
     width: 350px;
-    height: 655px;
-    padding: 60px 35px 35px 35px;
+    padding: 40px 35px 35px 35px;
     border-radius: 40px;
     background: #ecf0f3;
     overflow: hidden;
@@ -27,7 +33,7 @@ body{
 }
 
 .logo{
-    width: 80px;
+    width: 80px ;
     height: 80px;
     border-radius: 50%;
     margin: 0 auto;
@@ -57,7 +63,7 @@ body{
 
 .custom-fields{
     width: 100%;
-    padding: 30px 5px 5px 5px;
+    padding: 20px 5px 5px 5px;
 }
 
 .custom-fields input{
@@ -69,7 +75,7 @@ body{
     padding: 15px 6px 15px 2px;
 }
 
-.username, .password{
+.username-field, .password-field{
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 0px 0px 0px 7px;
@@ -98,6 +104,31 @@ body{
 
 .btn-submit:active{
     background-color: #1da88a;
+}
+
+.btn-logout{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: #f55252;
+    margin-top: 10px;
+    box-shadow: 3px 3px 8px #b1b1b1, -6px -6px 8px #ffffff;
+}
+
+.btn-logout:hover{
+    background-color: #ff4848;
+}
+
+.btn-logout:active{
+    background-color: #eb5c5c;
 }
 
 .link{
@@ -176,3 +207,18 @@ body{
     font-family: 'Lato', sans-serif;
     opacity: 0.85;
   }
+
+  .box{
+      padding-top: 15px;
+      opacity: 0.6;
+      font-size: 12px;
+      text-align: center;
+  }
+
+  .notice{
+    padding-top: 15px;
+    opacity: 0.6;
+    font-size: 12px;
+    text-align: center;
+    color: coral;
+}
