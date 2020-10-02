@@ -216,6 +216,14 @@ body{
     padding-top: 5px;
   }
 
+  .row-items .title-success{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.85;
+    padding-top: 5px;
+    align-self: center;
+  }
+
   .box{
       padding-top: 15px;
       opacity: 0.6;

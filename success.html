@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expired Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&dispplay=swap" />
+</head>
+
+<body>
+    <div class="container-login">
+        <div class="logo">
+            <img src="assets/shield.svg" alt="">
+        </div>
+        <div class="title">Yhotie.com</div>
+        <div class="sub-title">Selamat Datang, Pengguna Trial</div>
+        <!-- <div class="sub-title">Guard</div> -->
+
+        <!-- menu item -->
+        <div class="menu-items">
+
+            <div class="row-items">
+                <div class="title-success"> Anda telah terhubung di jaringan <b>vue.net</b>.</div>
+            </div>
+
+        </div>
+        <!-- menu item -->
+
+        <button class="btn-submit" id="login" onclick="status();">Check Status</button>
+
+
+        <!-- footer mohon jangan di hilangkan-->
+        <div class="link">
+            <a href="http://yhotie.com">Made with</a> &#10084; <a href="http://yhotie.com">by Yho Tie</a> 
+        </div>
+        <!-- footer -->
+    </div>
+</body>
+
+<script>
+    function status() {
+        console.log(" go to status");
+        window.location.href = "./status.html";
+    }
+</script>
+
+</html>
